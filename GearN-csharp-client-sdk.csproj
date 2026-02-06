@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+	<Authors>Chàng X</Authors>
+	<Company>XmobiTea Family</Company>
+	<Copyright>Copyright (c) XmobiTea 2024</Copyright>
+    <RootNamespace>GearN_csharp_client_sdk</RootNamespace>
+	<LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SocketIOClient" Version="3.1.2" />
+    <PackageReference Include="XmobiTea.Binary.MessagePack" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Constant\EnumType\" />
+    <Folder Include="Constant\ErrorCode\" />
+    <Folder Include="Constant\ParameterCode\" />
+    <Folder Include="Entity\Models\" />
+    <Folder Include="Entity\Request\" />
+    <Folder Include="Networking\Handler\" />
+    <Folder Include="Networking\Http\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GearN-csharp-client-sdk", "GearN-csharp-client-sdk.csproj", "{B35838A8-1EB5-40E0-9610-64D9C913626D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35838A8-1EB5-40E0-9610-64D9C913626D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35838A8-1EB5-40E0-9610-64D9C913626D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35838A8-1EB5-40E0-9610-64D9C913626D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35838A8-1EB5-40E0-9610-64D9C913626D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A47B0BE6-5F49-466C-959A-16157BC017C4}
+	EndGlobalSection
+EndGlobal

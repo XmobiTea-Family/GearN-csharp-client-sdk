@@ -1,0 +1,5 @@
+.vs/
+bin/
+obj/
+Properties/
+GearnN-csharp-client-sdk.csproj.user
