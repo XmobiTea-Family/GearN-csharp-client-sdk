@@ -164,16 +164,14 @@
         /// </summary>
         private static void initGNSocketObject()
         {
-            //var peer = new NetworkingPeer();
+            var peer = new NetworkingPeer();
+            peer.initPeer();
+            GNNetwork.peer = peer;
 
-            //peer.initPeer();
+            var serviceUpdate = new CSharp.ServiceUpdate();
+            serviceUpdate.peer = peer;
 
-            //GNNetwork.peer = peer;
-
-            //var serviceUpdate = new UnityEngine.GameObject("[GN] ServiceUpdate").AddComponent<Unity.ServiceUpdate>();
-            //UnityEngine.GameObject.DontDestroyOnLoad(serviceUpdate.gameObject);
-
-            //serviceUpdate.peer = peer;
+            serviceUpdate.run();
         }
 
         public static void setNewAuthenticateStatus(AuthenticateStatus authenticateStatus)
